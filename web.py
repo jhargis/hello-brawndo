@@ -1,7 +1,9 @@
+import os
 from flask import Flask
 
 app = Flask(__name__)
 
 @app.route('/')
 def index():
-  return 'hello...4'
+  PIPELINE_LOCATION = os.environ.get('PIPELINE_LOCATION', '')
+  return 'hello from %s...5' % PIPELINE_LOCATION
