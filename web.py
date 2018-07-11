@@ -6,4 +6,4 @@ app = Flask(__name__)
 @app.route('/')
 def index():
   PIPELINE_LOCATION = os.environ.get('PIPELINE_LOCATION', '')
-  return 'hello from %s...5' % PIPELINE_LOCATION
+  return 'hello from %s...5 test-branch-2' % PIPELINE_LOCATION
