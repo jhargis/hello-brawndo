@@ -6,8 +6,8 @@
   },
   "formation": {
     "web": {
-      "quantity": 6,
-      "size": ", "standard-1x"
+      "quantity": 3,
+      "size": "standard-1x"
     }
   },
   "addons": [
