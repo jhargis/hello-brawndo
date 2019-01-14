@@ -3,6 +3,15 @@
   "scripts": {
   },
   "env": {
+      "TESTVAR": {
+      "description": "Test envvar for review app.",
+      "value": "777"
+    },
+      "PIPELINE_LOCATION": {
+      "description": "Testing overriding Heroku config var.",
+      "value": "REVIEW_APP"
+    }    
+  
   },
   "formation": {
     "web": {
