@@ -7,4 +7,4 @@ app = Flask(__name__)
 def index():
   PIPELINE_LOCATION = os.environ.get('PIPELINE_LOCATION', '')
   TESTVAR = os.environ.get('TESTVAR', '') 
-  return 'hello from %s...10 .... TESTVAR=%s TESTVAR_TYPE=%s' % (PIPELINE_LOCATION, TESTVAR, type(TESTVAR))
+  return '..hello from %s...10 .... TESTVAR=%s TESTVAR_TYPE=%s' % (PIPELINE_LOCATION, TESTVAR, type(TESTVAR))
