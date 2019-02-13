@@ -4,7 +4,6 @@
   },
   "env": {
       "TESTVAR": {
-      "required": true
     }
   },
   "formation": {
