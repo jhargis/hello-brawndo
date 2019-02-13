@@ -3,6 +3,7 @@ from flask import Flask
 
 app = Flask(__name__)
 
+# foo
 @app.route('/')
 def index():
   PIPELINE_LOCATION = os.environ.get('PIPELINE_LOCATION', '')
