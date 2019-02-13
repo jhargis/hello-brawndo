@@ -3,7 +3,7 @@
   "scripts": {
   },
   "env": {
-      "NULLVAR": {
+      "TESTVAR": {
       "description": "Test envvar for review app.",
       "value": "888"
     }    
