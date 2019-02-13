@@ -3,6 +3,10 @@
   "scripts": {
   },
   "env": {
+      "TESTVAR": {
+      "description": "Test envvar for review app.",
+      "value": ""
+    }
   },
   "formation": {
     "web": {
