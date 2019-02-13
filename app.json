@@ -3,6 +3,9 @@
   "scripts": {
   },
   "env": {
+    "TESTVAR": {
+      "required": false
+    }
   },
   "formation": {
     "web": {
