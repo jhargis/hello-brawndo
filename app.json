@@ -3,6 +3,7 @@
   "scripts": {
   },
   "env": {
+    "TESTVAR": undefined
   },
   "formation": {
     "web": {
