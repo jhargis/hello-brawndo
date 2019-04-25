@@ -1,2 +1,1 @@
 Flask>=0.12.3
-pytest-tap==2.3
