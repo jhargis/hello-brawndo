@@ -18,4 +18,13 @@
       "url": "heroku/python"
     }
   ]
+  
+  "environments": {
+    "test": {
+      "scripts": {
+        "test": "pytest --tap-stream tests.py"
+      }
+    }
+  }
+
 }
