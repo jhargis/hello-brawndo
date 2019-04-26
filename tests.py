@@ -9,3 +9,6 @@ def test_answer_true():
 def test_answer_true2():
     assert func(5) == 6
 
+def test_answer_true3():
+    assert func(6) == 7
+
