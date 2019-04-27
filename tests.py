@@ -3,7 +3,7 @@ import pytest
 def func(x):
     return x + 1
 
-def test_answer_true000():
+def test_answer_true0000():
     assert func(4) == 5
 
 def test_answer_true2():
